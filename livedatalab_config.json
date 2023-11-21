@@ -1,0 +1,4 @@
+{ "prescript_commands": [ "pip install --upgrade pandas scikit-learn requests"
+],
+    "entrypoint": "mp3.2_grader"
+}

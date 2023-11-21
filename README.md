@@ -19,7 +19,8 @@ In this part, you will develop a classifier and participate in a classification 
 
 If you are using [Google Colab](https://colab.research.google.com/), the starter code provides an example of reading the data from your Google drive. Make sure to create a copy of the notebook and then modify it as needed. Also, you need to upload the data to your Google drive.
 
-You are free to use any classifier (Hint: The web pages are really long, so models suitable for long document classification (e.g., [Longformer](https://huggingface.co/docs/transformers/model_doc/longformer)) might work better) and fine-tune various hyper-parameters (e.g., learning rate, number of epochs). 
+You are free to use any classifier (Hint: The web pages are really long, so models suitable for long document classification (e.g., [Longformer](https://huggingface.co/docs/transformers/model_doc/longformer)) might work better) and fine-tune various hyper-parameters (e.g., learning rate, number of epochs). We recommend you start by experimenting with learning rate and number of epochs.
+
 
 3. To see how well you perform in the leaderboard, you need to run the prediction code on the test sets of both the datasets. For metamia dataset, save the results as `metamia_results.csv` and for mp3.1, save as `mp3.1_results.csv`. These two files must be located in the root folder in your repo, i.e., it should not be under any sub-folders. 
 
